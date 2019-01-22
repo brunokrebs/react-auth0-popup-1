@@ -92,3 +92,17 @@ $ touch public/close-popup/index.html
 
 // Create public/close-popup/index.html
 ```
+
+#### Create an Auth0 service file
+This is where the magic will happen for authentication in our app.
+```
+$ npm install --save auth0-js
+$ touch src/auth/service.js
+
+// Create the src/auth/service.js
+"Notice in the `responseType` we have `id_token` `token`. We are going to be using both the id token and the access token for this project. And in the `scope`, we will have the `openid`, `profile` and `email` coming through.
+
+We are going to be using different variables throughout our functions within our service.js file. Let’s get those set and declared. By setting things like our idToken or idTokenPayload to null, we are going to allow ourselves to give those values when necessary.
+
+At Auth0, we do not recommend saving user information to localStorage but we will save the authFlag to localStorage."
+```
