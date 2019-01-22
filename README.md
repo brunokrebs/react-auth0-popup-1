@@ -36,3 +36,17 @@ Time to set up an API for our project:
   - Give an example name such as `tvshows-movie-api`
   - Give an example identifier such as `https://tvmoviesapi`
 + Click on the `Settings` tab and verify that our `name` and `identifier` are what we expect
+
+## API
+### Data
+```
+$ mkdir -p api/data
+$ touch api/data/tvShows.json
+  // Create some sample data
+$ touch api/data/movies.json
+  // Create some sample data
+
+// Create a config file for our API
+$ touch api/config.js
+  // IMPORTANT: Be sure to add `api/config.js` to `.gitignore` so you do not commit your credentials!!
+```
