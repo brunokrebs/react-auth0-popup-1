@@ -72,3 +72,15 @@ $ node server/server.js
 
 // If you see "Listening on port 3005" your server is online and ready to go
 ```
+
+### Client
+```
+$ mkdir -p src/auth
+$ touch src/auth/config.js
+  // IMPORTANT: Be sure to add `src/auth/config.js` to `.gitignore` so you do not commit your credentials!!
+```
+#### Auth0 revisited
+We need to update Auth0 with proper `Allowed Callbacks URL` and `Allowed Logout URL` data:
++ `Allowed Callbacks URL` -> `http://localhost:3000/close-popup`
++ `Allowed Logout URL` -> `http://localhost:3000`
++ Click on `Save Changes`
