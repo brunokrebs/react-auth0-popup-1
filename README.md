@@ -106,3 +106,26 @@ We are going to be using different variables throughout our functions within our
 
 At Auth0, we do not recommend saving user information to localStorage but we will save the authFlag to localStorage."
 ```
+
+#### Front-end components
+We are going to be using three components for our application. One parent and two children components:
++ `App.js`
++ `TvShows.js`
++ `Movies.js`
+
+```
+// Modify `src/App.js` as guided
+
+$ mkdir -p src/components
+$ touch src/components/TvShows.js
+$ touch src/components/Movies.js
+$ touch src/components/styles.css
+
+// Modify `src/components/TvShows.js`
+  // NOTE: We are allowing this information without any authentication
+
+// Modify `src/components/Movies.js`
+  // Key differences will include storing an accessToken and importing the auth/service file
+
+// Modify `src/components/styles.css`
+```
