@@ -84,3 +84,11 @@ We need to update Auth0 with proper `Allowed Callbacks URL` and `Allowed Logout 
 + `Allowed Callbacks URL` -> `http://localhost:3000/close-popup`
 + `Allowed Logout URL` -> `http://localhost:3000`
 + Click on `Save Changes`
+
+#### Close the authentication pop-up window
+```
+$ mkdir -p public/close-popup
+$ touch public/close-popup/index.html
+
+// Create public/close-popup/index.html
+```
