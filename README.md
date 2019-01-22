@@ -56,6 +56,19 @@ $ touch api/routes.js
 $ npm install --save express express-jwt jwks-rsa
 
 // Update api/routes.js
+```
 
+## Our single-page-application
+### Server
+```
+$ mkdir server
+$ touch server/server.js
+$ npm install --save body-parser cors
 
+// Update server/server.js
+
+// Start the server
+$ node server/server.js
+
+// If you see "Listening on port 3005" your server is online and ready to go
 ```
