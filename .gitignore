@@ -25,3 +25,4 @@ yarn-error.log*
 # configuration
 api/config.js
 src/auth/config.js
+public/close-popup/index.html
