@@ -50,3 +50,12 @@ $ touch api/data/movies.json
 $ touch api/config.js
   // IMPORTANT: Be sure to add `api/config.js` to `.gitignore` so you do not commit your credentials!!
 ```
+### Routes
+```
+$ touch api/routes.js
+$ npm install --save express express-jwt jwks-rsa
+
+// Update api/routes.js
+
+
+```
