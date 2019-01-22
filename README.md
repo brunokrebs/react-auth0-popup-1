@@ -130,3 +130,10 @@ $ touch src/components/styles.css
 
 // Modify `src/components/styles.css`
 ```
+
+## Running the app on your local computer
+If you have followed this guide (and/or the original tutorial) you should be able to run your application:
+```
+$ node server/server.js   // Starts the API server on port 3005
+$ npm start               // Starts the React web application available at http://localhost:3000
+```
