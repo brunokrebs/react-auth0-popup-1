@@ -24,3 +24,4 @@ yarn-error.log*
 
 # configuration
 api/config.js
+src/auth/config.js
