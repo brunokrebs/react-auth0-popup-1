@@ -4,7 +4,8 @@ This project is based off the tutorial [React Tutorial with Popup Authentication
 # TL:DR
 Looking for an abbreviated version of the tutorial? Here is where you can find my crib notes - very much a work-in-progress as I follow along with the tutorial.
 
-## Initial React setup
+## Initial setup
+### Our web application
 This tutorial requires the latest version of React, which is `React v16.8.0-alpha.0`. This needs to be installed after [create-react-app](https://github.com/facebook/create-react-app) has been installed.
 ```
 $ npx create-react-app react-auth0-popup
@@ -16,7 +17,9 @@ Verify that create-react-app has successfully installed by visiting [http://loca
 $ npm install -S react@16.8.0-alpha.0 react-dom@16.8.0-alpha.0
 ```
 
-## Initial Auth0 setup
+### Auth0
+
+#### Initial setup
 To get started with [Auth0](https://auth0.com), please create a free account or sign in with your existing account.
 
 Ready? Let's go:
@@ -26,7 +29,7 @@ Ready? Let's go:
   - Click on `Create`
 + Select `React` as the technology we are using for the web app
 
-### Our Auth0 API
+#### Create an API
 Time to set up an API for our project:
 + Visit the [Auth0 API Dashboard](https://manage.auth0.com/#/apis)
 + Click on the big button in the upper right-hand corner that says `+ Create API`
