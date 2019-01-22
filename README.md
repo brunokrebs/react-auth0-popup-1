@@ -80,8 +80,9 @@ $ touch src/auth/config.js
   // IMPORTANT: Be sure to add `src/auth/config.js` to `.gitignore` so you do not commit your credentials!!
 ```
 #### Auth0 revisited
-We need to update Auth0 with proper `Allowed Callbacks URL` and `Allowed Logout URL` data:
+We need to update Auth0 with proper settings:
 + `Allowed Callbacks URL` -> `http://localhost:3000/close-popup`
++ `Allowed Web Origins` -> `http://localhost:3000`
 + `Allowed Logout URL` -> `http://localhost:3000`
 + Click on `Save Changes`
 
