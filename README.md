@@ -25,3 +25,11 @@ Ready? Let's go:
   - Click on `Single Page Web App`
   - Click on `Create`
 + Select `React` as the technology we are using for the web app
+
+### Our Auth0 API
+Time to set up an API for our project:
++ Visit the [Auth0 API Dashboard](https://manage.auth0.com/#/apis)
++ Click on the big button in the upper right-hand corner that says `+ Create API`
+  - Give an example name such as `tvshows-movie-api`
+  - Give an example identifier such as `https://tvmoviesapi`
++ Click on the `Settings` tab and verify that our `name` and `identifier` are what we expect
