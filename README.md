@@ -15,3 +15,13 @@ Verify that create-react-app has successfully installed by visiting [http://loca
 
 $ npm install -S react@16.8.0-alpha.0 react-dom@16.8.0-alpha.0
 ```
+
+## Initial Auth0 setup
+To get started with [Auth0](https://auth0.com), please create a free account or sign in with your existing account.
+
+Ready? Let's go:
++ Click on the big button in the upper right-hand corner that says `+ New Application`
+  - Give the application a name (such as `react-auth0-popup`)
+  - Click on `Single Page Web App`
+  - Click on `Create`
++ Select `React` as the technology we are using for the web app
