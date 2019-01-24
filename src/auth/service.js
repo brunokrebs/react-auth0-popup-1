@@ -42,7 +42,7 @@ class Auth {
   }
 
   login() {
-    this.auth0.popup.authorize({}, (err, authResult) => {
+    this.auth0.authorize({}, (err, authResult) => {
       console.log(err, authResult)
       if (err) this.localLogout()
       else {
